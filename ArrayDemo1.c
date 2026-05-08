@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{   
+   char cArr[4]={'a','b','c','d'};
+   int iArr[4]={10,20,30,40};
+   float fArr[4]={10.0f,20.0f,30.0f,40.0f};
+   double dArr[4]={10.1234,20.1234,30.1234,40.1234};
+
+   printf("Size of Character array:%lu\n", sizeof(cArr)); //4
+   printf("Size of Integer array:%lu\n", sizeof(iArr)); //16
+   printf("Size of Float array:%lu\n", sizeof(fArr)); // 16
+   printf("Size of Double array:%lu\n", sizeof(dArr)); //32
+   return 0;
+}
